@@ -17,4 +17,6 @@ modoBotao = digitalRead(botao);
   } else {
     digitalWrite(led,LOW);  //O botão não está pressionado, então, desligará o led.    
   }       
+ 
+ delay(500);
 }
